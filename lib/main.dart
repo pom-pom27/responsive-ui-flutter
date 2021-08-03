@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:outlook/constants.dart';
 import 'package:outlook/screens/main/main_screen.dart';
+import 'package:responsive_builder/responsive_builder.dart';
 
 void main() {
+  ResponsiveSizingConfig.instance.setCustomBreakpoints(
+    ScreenBreakpoints(tablet: 1116, desktop: 1288, watch: 200),
+  );
   runApp(MyApp());
 }
 

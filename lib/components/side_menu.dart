@@ -8,7 +8,7 @@ import 'tags.dart';
 
 class SideMenu extends StatelessWidget {
   const SideMenu({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
